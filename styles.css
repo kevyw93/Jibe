@@ -1,0 +1,19 @@
+.whole-container{
+  width: 80%;
+  height: 90%;
+  background-color: grey;
+  display: flex;
+  /* justify-content: center; */
+  margin:2% auto;
+}
+.top-container{
+  width: 100%;
+  height: 50%;
+  display:flex;
+  justify-content: space-around;
+}
+.plans{
+  height: 60%;
+  width: 20%;
+  border: 1px white solid;
+}
