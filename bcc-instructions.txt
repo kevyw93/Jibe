@@ -1,0 +1,5 @@
+Branding Code Challenge Instructions
+
+Hey, these are the instructions for our branding code challenge. Your challenge is to duplicate the element featured in the screenshot and video using only html and css (you can use sass or less if youd like). Your challenge should be fully responsive and reproduce the hover effects on the top three cards. The hover effects that make the bars below fill is extra credit. We ask that you only spend maximum of 6 hours on this project. You will create a repo on your github account and that is how we will review your work. To submit this challenge send us the name of the repository and the link to your github account. Good Luck!
+
+
