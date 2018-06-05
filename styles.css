@@ -7,12 +7,14 @@
   border-radius: 3px;
   box-sizing: border-box;
   overflow: hidden;
+  flex-direction: column;
 }
 
 .top-container{
   width:100%;
   display: flex;
   justify-content: center;
+  height: 50%;
 }
 .plans{
   height: 380px;
@@ -95,4 +97,7 @@
   margin-top: 15px;
 }
 
-.original-line
+.bot-container{
+  height: 50%;
+  width: 100%;
+}
