@@ -68,29 +68,31 @@
   justify-content: center;
 }
 
-.span1{
+.description1{
   width: 160px;
   height: 5px;
   background-color: grey;
 }
 
-.span2{
+.description2{
   height: 5px;
   background-color:grey;
   width: 142px;
   margin-top: 15px;
 }
 
-.span3{
+.description3{
   height: 5px;
   background-color:grey;
   width: 152px;
   margin-top: 15px;
 }
 
-.span4{
+.description4{
   height: 5px;
   background-color:grey;
   width: 136px;
   margin-top: 15px;
 }
+
+.original-line
