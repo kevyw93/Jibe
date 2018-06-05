@@ -1,20 +1,25 @@
+body{
+  display:flex;
+}
 .whole-container{
   width: 85%;
-  height: 90%;
+  height: 94%;
   background-color: grey;
   display: flex;
-  margin:2% auto;
+  margin: auto auto;
   border-radius: 3px;
   box-sizing: border-box;
-  overflow: hidden;
+  /* overflow: scroll; */
   flex-direction: column;
+  justify-content: center;
 }
 
 .top-container{
   width:100%;
   display: flex;
   justify-content: center;
-  height: 50%;
+  height: 400px;
+  margin: 6% 0;
 }
 .plans{
   height: 380px;
@@ -96,8 +101,42 @@
   width: 136px;
   margin-top: 15px;
 }
-
+.bot-inner-container{
+  width: 92%;
+  height: 80%;
+  align-self: center;
+  justify-content: center;
+}
 .bot-container{
-  height: 50%;
+  height: 390px;
+  width: 90%;
+  background-color: white;
+  align-self: center;
+  justify-content: center;
+  display:flex;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.stats-container:first-child{
+  margin-top: 1%;
+}
+.stats-container{
+  display:flex;
+  flex-direction: column;
+  height: 33%;
+  /* margin: 3% auto; */
+}
+
+.stats-text-container{
+  display:flex;
+  justify-content: space-between;
+}
+.stats-text{
+  color: grey;
+  font-size: 25px;
+}
+.inner-whole-container{
   width: 100%;
+  height: 100%;
+  overflow: scroll;
 }
