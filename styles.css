@@ -1,26 +1,27 @@
 .whole-container{
-  width: 80%;
+  width: 85%;
   height: 90%;
   background-color: grey;
   display: flex;
-  /* justify-content: center; */
   margin:2% auto;
+  border-radius: 3px;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .top-container{
   width:100%;
-
   display: flex;
   justify-content: center;
 }
 .plans{
-  height: 355px;
-  width: 20%;
-  /* border: 1px white solid; */
+  height: 380px;
+  width: 250px;
   margin-right: 20px;
   border-radius: 5px;
   margin-top: 20px;
   background-color: white;
+  box-sizing: border-box;
 }
 .plan-names{
   height: 85px;
@@ -36,12 +37,60 @@
   font-size: 30px;
   color:white;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
 }
 .plan-details{
   display: flex;
   flex-direction: column;
-  margin-top: 30px;
+  justify-content: center;
   align-items: center;
   width: 100%;
-  height: 240px;
+  height: 295px;
+}
+
+.price-tag{
+  font-size: 65px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.per-month{
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.plan-description{
+  width: 100%;
+  height: 111px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.span1{
+  width: 160px;
+  height: 5px;
+  background-color: grey;
+}
+
+.span2{
+  height: 5px;
+  background-color:grey;
+  width: 142px;
+  margin-top: 15px;
+}
+
+.span3{
+  height: 5px;
+  background-color:grey;
+  width: 152px;
+  margin-top: 15px;
+}
+
+.span4{
+  height: 5px;
+  background-color:grey;
+  width: 136px;
+  margin-top: 15px;
 }
