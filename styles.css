@@ -41,11 +41,14 @@ body{
 }
 
 #basic-plan:hover .price-tag{
-  color: blue;
+  color: RGB(58,147,278);
   font-size: 68px;
 }
 #basic-plan:hover .per-month{
-  color: blue;
+  color: RGB(58,147,278);
+}
+#basic-plan:hover .plan-names{
+  background-color: RGB(58,147,278);
 }
 
 #pro-plan{
@@ -68,11 +71,14 @@ body{
 }
 
 #pro-plan:hover .price-tag{
-  color: blue;
+  color: RGB(58,147,278);
   font-size: 68px;
 }
 #pro-plan:hover .per-month{
-  color: blue;
+  color: RGB(58,147,278);
+}
+#pro-plan:hover .plan-names{
+  background-color: RGB(58,147,278);
 }
 
 #premium-plan{
@@ -95,19 +101,22 @@ body{
 }
 
 #premium-plan:hover .price-tag{
-  color: blue;
+  color: RGB(58,147,278);
   font-size: 68px;
 }
 #premium-plan:hover .per-month{
-  color: blue;
+  color: RGB(58,147,278);
+}
+#premium-plan:hover .plan-names{
+  background-color: RGB(58,147,278);
 }
 
 .plan-names{
   height: 85px;
   width: 100%;
-  background-color:blue;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  background-color: RGB(111,186,218);
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
   display:flex;
   align-items: center;
   justify-content: center;
