@@ -654,3 +654,74 @@ body{
   }
 
 }
+@media(max-height: 357px){
+  #basic-plan{
+    height: 140px;
+  }
+  #pro-plan{
+    height: 140px;
+  }
+
+  #premium-plan{
+    height: 140px;
+  }
+  #basic-plan:hover{
+    height: 160px;
+  }
+  #pro-plan:hover{
+    height: 160px;
+  }
+  #premium-plan:hover{
+    height: 160px;
+  }
+  .plan-details{
+    height: 100px;
+  }
+  .plan-description{
+    height: 57px;
+  }
+  .top-container{
+    height: 170px;
+    margin-bottom: 0;
+  }
+  .plan-names{
+    height: 40px;
+  }
+
+  .bot-container{
+    height: 130px;
+  }
+  .description1{
+    height: 1px;
+  }
+  .description2{
+    height: 1px;
+  }
+  .description3{
+    height: 1px;
+  }
+  .description4{
+    height: 1px;
+
+  }
+  .stats-text{
+    font-size: 10px;
+  }
+  .price-tag{
+    font-size: 20px;
+  }
+  .original-line{
+    margin-top: 2px;
+    height: 10px;
+  }
+  #user-stats{
+    height: 10px;
+  }
+  #gigs-stats{
+    height: 10px;
+  }
+  #projects-stats{
+    height: 10px;
+  }
+
+}
