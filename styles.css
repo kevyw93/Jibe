@@ -9,27 +9,99 @@ body{
   margin: auto auto;
   border-radius: 3px;
   box-sizing: border-box;
-  /* overflow: scroll; */
   flex-direction: column;
   justify-content: center;
 }
 
 .top-container{
-  width:100%;
+  width: 100%;
   display: flex;
   justify-content: center;
-  height: 400px;
-  margin: 6% 0;
+  height: 430px;
+  margin: 4% 0;
+  align-items: center;
 }
-.plans{
+
+#basic-plan{
   height: 380px;
   width: 250px;
   margin-right: 20px;
   border-radius: 5px;
-  margin-top: 20px;
   background-color: white;
   box-sizing: border-box;
+  z-index: 1;
+  box-shadow: 3px 3px 3px 1px lightgrey;
 }
+#basic-plan:hover{
+  height: 400px;
+  width: 255px;
+  z-index: 30;
+  margin: auto 0;
+  margin-right: 20px;
+}
+
+#basic-plan:hover .price-tag{
+  color: blue;
+  font-size: 68px;
+}
+#basic-plan:hover .per-month{
+  color: blue;
+}
+
+#pro-plan{
+  height: 380px;
+  width: 250px;
+  margin-right: 20px;
+  border-radius: 5px;
+  background-color: white;
+  box-sizing: border-box;
+  z-index: 1;
+  box-shadow: 3px 3px 3px 1px lightgrey;
+}
+
+#pro-plan:hover{
+  height: 400px;
+  width: 255px;
+  z-index: 30;
+  margin: auto 0;
+  margin-right: 20px;
+}
+
+#pro-plan:hover .price-tag{
+  color: blue;
+  font-size: 68px;
+}
+#pro-plan:hover .per-month{
+  color: blue;
+}
+
+#premium-plan{
+  height: 380px;
+  width: 250px;
+  margin-right: 20px;
+  border-radius: 5px;
+  background-color: white;
+  box-sizing: border-box;
+  z-index: 1;
+  box-shadow: 3px 3px 3px 1px lightgrey;
+}
+
+#premium-plan:hover{
+  height: 400px;
+  width: 255px;
+  z-index: 30;
+  margin: auto 0;
+  margin-right: 20px;
+}
+
+#premium-plan:hover .price-tag{
+  color: blue;
+  font-size: 68px;
+}
+#premium-plan:hover .per-month{
+  color: blue;
+}
+
 .plan-names{
   height: 85px;
   width: 100%;
@@ -148,24 +220,24 @@ body{
   position: relative;
 }
 #user-stats{
-  width: 60px;
+  /* width: 60px; */
   height: 20px;
-  background-color: blue;
+  /* background-color: blue; */
   border-radius: 20px;
   position: absolute;
 }
 #gigs-stats{
-  width: 60px;
+  /* width: 60px; */
   height: 20px;
-  background-color: blue;
+  /* background-color: blue; */
   border-radius: 20px;
   position: absolute;
 }
 
 #projects-stats{
-  width: 60px;
+  /* width: 60px; */
   height: 20px;
-  background-color: blue;
+  /* background-color: blue; */
   border-radius: 20px;
   position: absolute;
 }
