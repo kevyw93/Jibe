@@ -4,7 +4,7 @@ body{
 .whole-container{
   width: 85%;
   height: 94%;
-  background-color: grey;
+  background-color: #D8D8D8;
   display: flex;
   margin: auto auto;
   border-radius: 3px;
@@ -30,7 +30,7 @@ body{
   background-color: white;
   box-sizing: border-box;
   z-index: 1;
-  box-shadow: 3px 3px 3px 1px lightgrey;
+  box-shadow: 3px 3px 3px 1px #BEBEBE;
 }
 #basic-plan:hover{
   height: 400px;
@@ -39,7 +39,6 @@ body{
   margin: auto 0;
   margin-right: 20px;
 }
-
 #basic-plan:hover .price-tag{
   color: RGB(58,147,278);
   font-size: 68px;
@@ -59,7 +58,7 @@ body{
   background-color: white;
   box-sizing: border-box;
   z-index: 1;
-  box-shadow: 3px 3px 3px 1px lightgrey;
+  box-shadow: 3px 3px 3px 1px #BEBEBE;
 }
 
 #pro-plan:hover{
@@ -89,7 +88,7 @@ body{
   background-color: white;
   box-sizing: border-box;
   z-index: 1;
-  box-shadow: 3px 3px 3px 1px lightgrey;
+  box-shadow: 3px 3px 3px 1px #BEBEBE;
 }
 
 #premium-plan:hover{
@@ -159,26 +158,26 @@ body{
 .description1{
   width: 160px;
   height: 5px;
-  background-color: grey;
+  background-color: #B0B0B0;
 }
 
 .description2{
   height: 5px;
-  background-color:grey;
+  background-color:#B0B0B0;
   width: 142px;
   margin-top: 15px;
 }
 
 .description3{
   height: 5px;
-  background-color:grey;
+  background-color:#B0B0B0;
   width: 152px;
   margin-top: 15px;
 }
 
 .description4{
   height: 5px;
-  background-color:grey;
+  background-color:#B0B0B0;
   width: 136px;
   margin-top: 15px;
 }
@@ -224,29 +223,23 @@ body{
 .original-line{
   width: 100%;
   height: 20px;
-  background-color: grey;
+  background-color: #D8D8D8;
   border-radius: 20px;
   position: relative;
 }
 #user-stats{
-  /* width: 60px; */
   height: 20px;
-  /* background-color: blue; */
   border-radius: 20px;
   position: absolute;
 }
 #gigs-stats{
-  /* width: 60px; */
   height: 20px;
-  /* background-color: blue; */
   border-radius: 20px;
   position: absolute;
 }
 
 #projects-stats{
-  /* width: 60px; */
   height: 20px;
-  /* background-color: blue; */
   border-radius: 20px;
   position: absolute;
 }
