@@ -18,12 +18,12 @@ body{
   display: flex;
   justify-content: center;
   height: 430px;
-  margin: 4% 0;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 #basic-plan{
-  height: 380px;
+  height: 370px;
   width: 250px;
   margin-right: 20px;
   border-radius: 5px;
@@ -33,7 +33,7 @@ body{
   box-shadow: 3px 3px 3px 1px #BEBEBE;
 }
 #basic-plan:hover{
-  height: 400px;
+  height: 390px;
   width: 255px;
   z-index: 30;
   margin: auto 0;
@@ -51,7 +51,7 @@ body{
 }
 
 #pro-plan{
-  height: 380px;
+  height: 370px;
   width: 250px;
   margin-right: 20px;
   border-radius: 5px;
@@ -62,7 +62,7 @@ body{
 }
 
 #pro-plan:hover{
-  height: 400px;
+  height: 390px;
   width: 255px;
   z-index: 30;
   margin: auto 0;
@@ -81,7 +81,7 @@ body{
 }
 
 #premium-plan{
-  height: 380px;
+  height: 370px;
   width: 250px;
   margin-right: 20px;
   border-radius: 5px;
@@ -92,7 +92,7 @@ body{
 }
 
 #premium-plan:hover{
-  height: 400px;
+  height: 390px;
   width: 255px;
   z-index: 30;
   margin: auto 0;
@@ -188,12 +188,12 @@ body{
   justify-content: center;
 }
 .bot-container{
-  height: 390px;
+  height: 340px;
   width: 90%;
   background-color: white;
   align-self: center;
   justify-content: center;
-  display:flex;
+  display: flex;
   margin: 0 auto;
   margin-bottom: 40px;
 }
@@ -215,8 +215,7 @@ body{
   font-size: 25px;
 }
 .inner-whole-container{
-  width: 100%;
-  height: 100%;
+
   overflow: scroll;
 }
 
