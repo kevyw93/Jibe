@@ -38,6 +38,7 @@ body{
   z-index: 30;
   margin: auto 0;
   margin-right: 20px;
+  box-shadow: 7px 7px 7px 5px #BEBEBE;
 }
 #basic-plan:hover .price-tag{
   color: RGB(58,147,278);
@@ -67,6 +68,7 @@ body{
   z-index: 30;
   margin: auto 0;
   margin-right: 20px;
+  box-shadow: 7px 7px 7px 5px #BEBEBE;
 }
 
 #pro-plan:hover .price-tag{
@@ -97,7 +99,7 @@ body{
   z-index: 30;
   margin: auto 0;
   margin-right: 20px;
-  box-shadow: 5px 5px 5px 3px #BEBEBE;
+  box-shadow: 7px 7px 7px 5px #BEBEBE;
 }
 
 #premium-plan:hover .price-tag{
