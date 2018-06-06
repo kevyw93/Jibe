@@ -8,11 +8,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const gigStats = document.getElementById('gigs-stats');
     const projectStats = document.getElementById('projects-stats');
     userStats.style.width = "5%";
-    userStats.style.backgroundColor = "RGB(111,186,218)";
+    userStats.style.backgroundColor = "RGB(143,206,234)";
     gigStats.style.width = "5%";
-    gigStats.style.backgroundColor = "RGB(111,186,218)";
+    gigStats.style.backgroundColor = "RGB(143,206,234)";
     projectStats.style.width = "5%";
-    projectStats.style.backgroundColor = "RGB(111,186,218)";
+    projectStats.style.backgroundColor = "RGB(143,206,234)";
 
   });
   basic.addEventListener('mouseout', () => {
@@ -32,11 +32,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const gigStats = document.getElementById('gigs-stats');
     const projectStats = document.getElementById('projects-stats');
     userStats.style.width = "30%";
-    userStats.style.backgroundColor = "RGB(111,186,218)";
+    userStats.style.backgroundColor = "RGB(143,206,234)";
     gigStats.style.width = "70%";
-    gigStats.style.backgroundColor = "RGB(111,186,218)";
+    gigStats.style.backgroundColor = "RGB(143,206,234)";
     projectStats.style.width = "30%";
-    projectStats.style.backgroundColor = "RGB(111,186,218)";
+    projectStats.style.backgroundColor = "RGB(143,206,234)";
   });
 
   pro.addEventListener('mouseout', () => {
@@ -56,13 +56,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const gigStats = document.getElementById('gigs-stats');
     const projectStats = document.getElementById('projects-stats');
     userStats.style.width = "100%";
-    userStats.style.backgroundColor = "RGB(111,186,218)";
+    userStats.style.backgroundColor = "RGB(143,206,234)";
     userStats.style.borderRadius = "20px";
     gigStats.style.width = "100%";
-    gigStats.style.backgroundColor = "RGB(111,186,218)";
+    gigStats.style.backgroundColor = "RGB(143,206,234)";
     gigStats.style.borderRadius = "20px";
     projectStats.style.width = "100%";
-    projectStats.style.backgroundColor = "RGB(111,186,218)";
+    projectStats.style.backgroundColor = "RGB(143,206,234)";
     projectStats.style.borderRadius = "20px";
   });
 
