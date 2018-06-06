@@ -9,6 +9,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const projectStats = document.getElementById('projects-stats');
     userStats.style.width = "5%";
     userStats.style.backgroundColor = "RGB(58,147,278)";
+    gigStats.style.width = "5%";
+    gigStats.style.backgroundColor = "RGB(58,147,278)";
+    projectStats.style.width = "5%";
+    projectStats.style.backgroundColor = "RGB(58,147,278)";
 
   });
   basic.addEventListener('mouseout', () => {
@@ -17,14 +21,22 @@ document.addEventListener("DOMContentLoaded", () => {
     const projectStats = document.getElementById('projects-stats');
     userStats.style.width = "";
     userStats.style.backgroundColor = "";
+    gigStats.style.width = "";
+    gigStats.style.backgroundColor = "";
+    projectStats.style.width = "";
+    projectStats.style.backgroundColor = "";
   });
 
   pro.addEventListener('mouseover', () => {
     const userStats = document.getElementById('user-stats');
     const gigStats = document.getElementById('gigs-stats');
     const projectStats = document.getElementById('projects-stats');
-    userStats.style.width = "50px";
+    userStats.style.width = "30%";
     userStats.style.backgroundColor = "RGB(58,147,278)";
+    gigStats.style.width = "70%";
+    gigStats.style.backgroundColor = "RGB(58,147,278)";
+    projectStats.style.width = "30%";
+    projectStats.style.backgroundColor = "RGB(58,147,278)";
   });
 
   pro.addEventListener('mouseout', () => {
@@ -33,6 +45,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const projectStats = document.getElementById('projects-stats');
     userStats.style.width = "";
     userStats.style.backgroundColor = "";
+    gigStats.style.width = "";
+    gigStats.style.backgroundColor = "";
+    projectStats.style.width = "";
+    projectStats.style.backgroundColor = "";
   });
 
   premium.addEventListener('mouseover', () => {
