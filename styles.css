@@ -90,18 +90,15 @@ body{
 #pro-plan:hover .plan-names{
   background-color: RGB(80, 165, 205);
 }
-
 #premium-plan{
   height: 380px;
   width: 250px;
-  margin-right: 20px;
   border-radius: 7px;
   background-color: white;
   box-sizing: border-box;
   z-index: 1;
   box-shadow: 3px 3px 3px 1px #BEBEBE;
 }
-
 #premium-plan:hover{
   height: 410px;
   width: 255px;
@@ -268,4 +265,392 @@ body{
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   position: absolute;
+}
+
+/*  media queries*/
+
+
+@media (max-width: 1100px){
+  #basic-plan{
+    height: 380px;
+    width: 220px;
+    border-radius: 5px;
+  }
+
+  #basic-plan:hover{
+    height: 410px;
+    width: 230px;
+  }
+
+  #pro-plan{
+    height: 380px;
+    width: 220px;
+    border-radius: 5px;
+  }
+
+  #pro-plan:hover{
+    height: 410px;
+    width: 230px;
+  }
+
+  #premium-plan{
+    height: 380px;
+    width: 220px;
+    border-radius: 5px;
+  }
+  #premium-plan:hover{
+    height: 410px;
+    width: 230px;
+  }
+  .plan-names{
+    height: 85px;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .price-tag{
+    font-size: 55px;
+  }
+
+  .per-month{
+    font-size: 20px;
+  }
+
+  .description1{
+    width: 150px;
+  }
+
+  .description2{
+    width: 132px;
+  }
+
+  .description3{
+    width: 142px;
+  }
+
+  .description4{
+    width: 130px;
+  }
+
+}
+
+@media (max-width: 940px){
+  #basic-plan{
+    width: 200px;
+  }
+
+  #basic-plan:hover{
+    height: 390px;
+    width: 210px;
+  }
+
+  #basic-plan:hover .price-tag{
+    font-size: 55px;
+  }
+
+  #pro-plan{
+    width: 200px;
+  }
+
+  #pro-plan:hover .price-tag{
+    font-size: 55px;
+  }
+
+  #pro-plan:hover{
+    height: 390px;
+    width: 210px;
+  }
+
+  #premium-plan{
+    width: 200px;
+  }
+
+  #premium-plan:hover{
+    height: 390px;
+    width: 210px;
+  }
+  #premium-plan:hover .price-tag{
+    font-size: 55px;
+  }
+
+  .plan-names{
+    height: 75px;
+  }
+
+  .price-tag{
+    font-size: 50px;
+  }
+
+  .per-month{
+    font-size: 20px;
+  }
+
+  .description1{
+    width: 140px;
+  }
+
+  .description2{
+    width: 122px;
+  }
+
+  .description3{
+    width: 132px;
+  }
+
+  .description4{
+    width: 120px;
+  }
+
+}
+@media (max-width: 865px){
+  #basic-plan{
+    width: 190px;
+  }
+
+  #basic-plan:hover{
+    width: 200px;
+  }
+
+  #basic-plan:hover .price-tag{
+    font-size: 50px;
+  }
+
+  #pro-plan{
+    width: 190px;
+  }
+
+  #pro-plan:hover .price-tag{
+    font-size: 50px;
+  }
+
+  #pro-plan:hover{
+    height: 390px;
+    width: 200px;
+  }
+
+  #premium-plan{
+    width: 190px;
+  }
+
+  #premium-plan:hover{
+    height: 390px;
+    width: 200px;
+  }
+  #premium-plan:hover .price-tag{
+    font-size: 50px;
+  }
+
+  .plan-names{
+    height: 70px;
+  }
+
+  .price-tag{
+    font-size: 45px;
+  }
+
+  .per-month{
+    font-size: 15px;
+  }
+
+  .description1{
+    width: 130px;
+  }
+
+  .description2{
+    width: 112px;
+  }
+
+  .description3{
+    width: 122px;
+  }
+
+  .description4{
+    width: 110px;
+  }
+
+}
+
+@media (max-width: 723px){
+  #basic-plan{
+    height: 330px;
+    width: 180px;
+  }
+
+  #basic-plan:hover{
+    width: 190px;
+  }
+
+  #basic-plan:hover .price-tag{
+    font-size: 40px;
+  }
+
+  #pro-plan{
+    height: 330px;
+    width: 180px;
+  }
+
+  #pro-plan:hover .price-tag{
+    font-size: 40px;
+  }
+
+  #pro-plan:hover{
+    height: 360px;
+    width: 190px;
+  }
+
+  #premium-plan{
+    height: 330px;
+    width: 180px;
+  }
+
+  #premium-plan:hover{
+    height: 360px;
+    width: 190px;
+  }
+  #premium-plan:hover .price-tag{
+    font-size: 40px;
+  }
+
+  .plan-names{
+    height: 60px;
+  }
+
+  .price-tag{
+    font-size: 40px;
+  }
+
+  .per-month{
+    font-size: 10px;
+  }
+
+  .description1{
+    width: 120px;
+  }
+
+  .description2{
+    width: 102px;
+  }
+
+  .description3{
+    width: 112px;
+  }
+
+  .description4{
+    width: 100px;
+  }
+
+}
+@media (max-width: 570px){
+  #basic-plan{
+    height: 330px;
+    width: 110px;
+  }
+
+  #basic-plan:hover{
+    width: 120px;
+  }
+
+  #basic-plan:hover .price-tag{
+    font-size: 30px;
+  }
+
+  #pro-plan{
+    height: 330px;
+    width: 110px;
+  }
+
+  #pro-plan:hover .price-tag{
+    font-size: 30px;
+  }
+
+  #pro-plan:hover{
+    height: 360px;
+    width: 120px;
+  }
+
+  #premium-plan{
+    height: 330px;
+    width: 110px;
+  }
+
+  #premium-plan:hover{
+    height: 360px;
+    width: 120px;
+  }
+  #premium-plan:hover .price-tag{
+    font-size: 30px;
+  }
+  .plan-title{
+    font-size: 18px;
+  }
+  .plan-names{
+    height: 50px;
+  }
+
+  .price-tag{
+    font-size: 30px;
+  }
+
+  .per-month{
+    font-size: 7px;
+  }
+
+  .description1{
+    width: 90px;
+  }
+
+  .description2{
+    width: 72px;
+  }
+
+  .description3{
+    width: 82px;
+  }
+
+  .description4{
+    width: 70px;
+  }
+
+}
+
+@media(max-height: 600px){
+  #basic-plan{
+    height: 250px;
+  }
+  #pro-plan{
+    height: 250px;
+  }
+
+  #premium-plan{
+    height: 250px;
+  }
+  #basic-plan:hover{
+    height: 260px;
+  }
+  #pro-plan:hover{
+    height: 260px;
+  }
+  #premium-plan:hover{
+    height: 260px;
+  }
+  .plan-details{
+    height: 200px;
+  }
+  .top-container{
+    height: 300px;
+    margin-bottom: 0;
+  }
+
+  .bot-container{
+    height: 200px;
+  }
+  .stats-text{
+    font-size: 17px;
+  }
+
+  .original-line{
+    margin-top: 2px;
+  }
+
 }
