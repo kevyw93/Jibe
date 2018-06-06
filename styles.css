@@ -41,14 +41,14 @@ body{
   box-shadow: 7px 7px 7px 5px #BEBEBE;
 }
 #basic-plan:hover .price-tag{
-  color: RGB(58,147,278);
+  color: RGB(18,159,200);
   font-size: 68px;
 }
 #basic-plan:hover .per-month{
-  color: RGB(58,147,278);
+  color: RGB(18,159,200);
 }
 #basic-plan:hover .plan-names{
-  background-color: RGB(58,147,278);
+  background-color: RGB(18,159,200);
 }
 
 #pro-plan{
@@ -72,14 +72,14 @@ body{
 }
 
 #pro-plan:hover .price-tag{
-  color: RGB(58,147,278);
+  color: RGB(18,159,200);
   font-size: 68px;
 }
 #pro-plan:hover .per-month{
-  color: RGB(58,147,278);
+  color: RGB(18,159,200);
 }
 #pro-plan:hover .plan-names{
-  background-color: RGB(58,147,278);
+  background-color: RGB(18,159,200);
 }
 
 #premium-plan{
@@ -103,14 +103,14 @@ body{
 }
 
 #premium-plan:hover .price-tag{
-  color: RGB(58,147,278);
+  color: RGB(18,159,200);
   font-size: 68px;
 }
 #premium-plan:hover .per-month{
-  color: RGB(58,147,278);
+  color: RGB(18,159,200);
 }
 #premium-plan:hover .plan-names{
-  background-color: RGB(58,147,278);
+  background-color: RGB(18,159,200);
 }
 
 .plan-names{
