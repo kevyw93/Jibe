@@ -1,6 +1,7 @@
 body{
   display:flex;
 }
+
 .whole-container{
   width: 85%;
   height: 94%;
@@ -32,6 +33,7 @@ body{
   z-index: 1;
   box-shadow: 3px 3px 3px 1px #BEBEBE;
 }
+
 #basic-plan:hover{
   height: 410px;
   width: 255px;
@@ -40,13 +42,16 @@ body{
   margin-right: 20px;
   box-shadow: 7px 7px 7px 5px #BEBEBE;
 }
+
 #basic-plan:hover .price-tag{
   color: RGB(18,159,200);
   font-size: 68px;
 }
+
 #basic-plan:hover .per-month{
   color: RGB(18,159,200);
 }
+
 #basic-plan:hover .plan-names{
   background-color: RGB(18,159,200);
 }
@@ -75,9 +80,11 @@ body{
   color: RGB(18,159,200);
   font-size: 68px;
 }
+
 #pro-plan:hover .per-month{
   color: RGB(18,159,200);
 }
+
 #pro-plan:hover .plan-names{
   background-color: RGB(18,159,200);
 }
@@ -106,9 +113,11 @@ body{
   color: RGB(18,159,200);
   font-size: 68px;
 }
+
 #premium-plan:hover .per-month{
   color: RGB(18,159,200);
 }
+
 #premium-plan:hover .plan-names{
   background-color: RGB(18,159,200);
 }
@@ -123,12 +132,14 @@ body{
   align-items: center;
   justify-content: center;
 }
+
 .plan-title{
   font-size: 30px;
   color:white;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
 }
+
 .plan-details{
   display: flex;
   flex-direction: column;
@@ -185,12 +196,14 @@ body{
   width: 136px;
   margin-top: 15px;
 }
+
 .bot-inner-container{
   width: 92%;
   height: 80%;
   align-self: center;
   justify-content: center;
 }
+
 .bot-container{
   height: 340px;
   width: 90%;
@@ -201,9 +214,11 @@ body{
   margin: 0 auto;
   margin-bottom: 40px;
 }
+
 .stats-container:first-child{
   margin-top: 1%;
 }
+
 .stats-container{
   display:flex;
   flex-direction: column;
@@ -219,7 +234,6 @@ body{
   font-size: 25px;
 }
 .inner-whole-container{
-
   overflow: scroll;
 }
 
@@ -231,12 +245,14 @@ body{
   position: relative;
   margin-top: 20px;
 }
+
 #user-stats{
   height: 25px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   position: absolute;
 }
+
 #gigs-stats{
   height: 25px;
   border-top-left-radius: 20px;
