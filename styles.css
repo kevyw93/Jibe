@@ -18,7 +18,7 @@ body{
   width: 100%;
   display: flex;
   justify-content: center;
-  height: 430px;
+  height: 60%;
   align-items: center;
   margin-bottom: 30px;
 }
@@ -172,29 +172,28 @@ body{
 
 .description1{
   width: 75%;
-  height: 5px;
   background-color: #B0B0B0;
 }
 
 .description2{
-  height: 5px;
   background-color:#B0B0B0;
   width: 65%;
   margin-top: 15px;
 }
 
 .description3{
-  height: 5px;
   background-color:#B0B0B0;
   width: 70%;
   margin-top: 15px;
 }
 
 .description4{
-  height: 5px;
   background-color:#B0B0B0;
   width: 60%;
   margin-top: 15px;
+}
+.description-height{
+  height: 5px;
 }
 
 .bot-inner-container{
@@ -205,7 +204,7 @@ body{
 }
 
 .bot-container{
-  height: 340px;
+  height: 40%;
   width: 90%;
   background-color: white;
   align-self: center;
@@ -237,6 +236,7 @@ body{
   overflow: scroll;
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .original-line{
@@ -279,6 +279,39 @@ body{
   }
   #basic-plan{
     width: 30%;
+    height: 64%;
+  }
+  #pro-plan{
+    width: 30%;
+    height: 64%;
+  }
+  #premium-plan{
+    width: 30%;
+    height: 64%;
+  }
+
+  .price-tag{
+    font-size: 7vw;
+  }
+  .per-month{
+    font-size: 3vw;
+  }
+  .plan-title{
+    font-size: 4vw;
+  }
+
+
+
+}
+
+@media (max-width: 420px){
+
+  .top-container{
+    width: 90%;
+    margin: 0 auto;
+  }
+  #basic-plan{
+    width: 30%;
   }
   #pro-plan{
     width: 30%;
@@ -295,6 +328,11 @@ body{
   }
   .plan-title{
     font-size: 4vw;
+  }
+
+
+  .plan-details{
+    height: 77%;
   }
 
 
